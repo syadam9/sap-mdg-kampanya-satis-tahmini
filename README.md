@@ -41,13 +41,13 @@ Aylık satış trendi, haftanın günlerine göre satış dağılımı, en çok 
 **Not:** Kampanya sınıflandırma modelinin yüksek doğruluğu, hedef etiketlerin RFM değerlerinden kural tabanlı türetilmiş olmasından kaynaklanmaktadır. Model, gerçek kampanya geri dönüş verisini değil, oluşturulan segmentasyon kurallarını öğrenmektedir. Detaylı tartışma notebook içinde yer almaktadır.
 
 ## Dosya Yapısı
-├── sap-mdg-kampanya-satis-tahmini.ipynb # Analiz ve model geliştirme notebook'u
-├── app.py # Streamlit dashboard
-├── rfm_kampanya_sonuclari.csv # Müşteri segment ve kampanya sonuçları
-├── satis_tahmini_sonuclari.csv # Test dönemi satış tahminleri
-├── segment_ozeti.csv # Segment bazlı özet istatistikler
-├── gelecek_tahmin.csv # 30 günlük gelecek satış tahmini
-└── README.md
+sap-mdg-kampanya-satis-tahmini.ipynb Analiz ve model gelistirme notebooku
+app.py Streamlit dashboard
+rfm_kampanya_sonuclari.csv Musteri segment ve kampanya sonuclari
+satis_tahmini_sonuclari.csv Test donemi satis tahminleri
+segment_ozeti.csv Segment bazli ozet istatistikler
+gelecek_tahmin.csv 30 gunluk gelecek satis tahmini
+README.md
 
 ## Kurulum ve Çalıştırma
 
